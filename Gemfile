@@ -11,7 +11,7 @@ gem 'jquery-rails'
 gem 'sass-rails', '~> 4.0.0'
 
 group :production do
-  gem 'pg'                                # PostgreSQL
+  gem 'pg', '~> 0.11'                                # PostgreSQL
   gem 'rails_12factor'                    # Heroku Asset Pipeline
 end
 
